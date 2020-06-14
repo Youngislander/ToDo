@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link rel = "stylesheet" href="index.css" />
+  </head>
+  <body>
+   <div class="container">
+     <div class="outer">
+       <div class="inner">
+         <div class="centered">
+          <h4 class="js-greetings greetings"></h4>
+           <div class="js-clock">
+             <h1>00:00</h1>
+           </div>
+           <form class="js-form form">
+            <input type="text" placeholder="what is your name?"/>
+          </form>
+          <form class="js-toDoForm form">
+            <input class="todo-input" type = "text" placeholder="Write a to do"/>
+          </form>
+           <div class="content">
+           <h3>To do list</h3>
+           <ul class="pending_ul" id="js-todoListInside" style="color:#ffffff", font-align : left>
+           </ul>
+           <h3>I'm done!!</h3>
+           <ul class="finished_ul">
+            </ul>
+         </div>
+         <span class="js-weather"></span>
+       </div>
+     </div>
+   </div>
+   <script src="clock.js"></script>
+   <script src="gretting.js"></script>
+   <script src="todo.js"></script>
+   <script src="bg.js"></script>
+   <script src="weather.js"></script>
+  </body>
+</html>
